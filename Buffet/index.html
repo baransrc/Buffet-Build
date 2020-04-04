@@ -4,22 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Buffet</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico?v=0.1">
-    <link rel="stylesheet" href="TemplateData/style.css?v=0.1">
-    <script src="TemplateData/UnityProgress.js?v=0.1"></script>
-    <script src="Build/UnityLoader.js?v=0.1"></script>
+    <script src="Build/UnityLoader.js?v=0.15"></script>
     <script>
-      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Buffet.json", {onProgress: UnityProgress});
+      UnityLoader.instantiate("unityContainer", "Build/Buffet.json");
     </script>
   </head>
   <body>
-    <div class="webgl-content">
-      <div id="unityContainer" style="width: 960px; height: 600px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-        <div class="title">Buffet</div>
-      </div>
-    </div>
+    <div id="unityContainer" style="width: 1600px; height: 900px; margin: auto"></div>
   </body>
 </html>
