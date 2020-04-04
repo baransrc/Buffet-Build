@@ -1,7 +1,7 @@
 {
-"companyName": "DefaultCompany",
+"companyName": "baran();",
 "productName": "Buffet",
-"productVersion": "0.15",
+"productVersion": "0.2",
 "dataUrl": "Buffet.data.unityweb",
 "wasmCodeUrl": "Buffet.wasm.code.unityweb",
 "wasmFrameworkUrl": "Buffet.wasm.framework.unityweb",
